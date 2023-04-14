@@ -1,0 +1,309 @@
+<!-- MAIN NAVIGATION -->
+  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+  <nav id="mainnav-container" class="mainnav">
+    <div class="mainnav__inner">
+       <!-- Navigation menu -->
+       <div class="mainnav__top-content scrollable-content pb-5">
+          <!-- Profile Widget -->
+          <div class="mainnav__profile mt-3 d-flex3">
+             <div class="mt-2 d-mn-max"></div>
+             <!-- Profile picture  -->
+             <div class="mininav-toggle text-center py-2">
+                <img class="mainnav__avatar img-md rounded-circle border" src="assets/img/profile-photos/1.png" alt="Profile Picture">
+             </div>
+             <div class="mininav-content collapse d-mn-max">
+                <div class="d-grid">
+                   <!-- User name and position -->
+                   <button class="d-block btn shadow-none p-2" data-bs-toggle="collapse" data-bs-target="#usernav" aria-expanded="false" aria-controls="usernav">
+                   <span class="dropdown-toggle d-flex justify-content-center align-items-center">
+                      <h6 class="mb-0 me-3">Taqi Raza</h6>
+                   </span>
+                   <small class="text-muted">Administrator</small>
+                   </button>
+                   <!-- Collapsed user menu -->
+                   <div id="usernav" class="nav flex-column collapse">
+                      <a href="javascript:;" class="nav-link d-flex justify-content-between align-items-center">
+                         <span><i class="demo-pli-mail fs-5 me-2"></i><span class="ms-1">Messages</span></span>
+                         <span class="badge bg-danger rounded-pill">14</span>
+                      </a>
+                      <a href="javascript:;" class="nav-link">
+                         <i class="demo-pli-male fs-5 me-2"></i>
+                         <span class="ms-1">Profile</span>
+                      </a>
+                      <a href="javascript:;" class="nav-link">
+                         <i class="demo-pli-gear fs-5 me-2"></i>
+                         <span class="ms-1">Settings</span>
+                      </a>
+                      <a href="javascript:;" class="nav-link">
+                         <i class="demo-pli-computer-secure fs-5 me-2"></i>
+                         <span class="ms-1">Lock screen</span>
+                      </a>
+                      <a href="../login.html" class="nav-link">
+                         <i class="demo-pli-unlock fs-5 me-2"></i>
+                         <span class="ms-1">Logout</span>
+                      </a>
+                   </div>
+                </div>
+             </div>
+          </div>
+          <!-- End - Profile widget -->
+          <!-- Navigation Category -->
+          <div class="mainnav__categoriy py-3">
+             <h6 class="mainnav__caption mt-0 px-3 fw-bold">Navigation</h6>
+             <ul class="mainnav__menu nav flex-column">
+                <!-- Link with submenu -->
+                <li class="nav-item">
+                  <a routerLink="/" class="nav-link "><i class="demo-pli-home fs-5 me-2"></i>
+                     <span class="nav-label ms-1">Dashboard</span>
+                  </a>
+               </li>
+                <li class="nav-item has-sub">
+                   <a href="javascript:;" class="mininav-toggle nav-link active"><i class="demo-pli-home fs-5 me-2"></i>
+                      <span class="nav-label ms-1">HRIS</span>
+                   </a>
+                   <!-- Dashboard submenu list -->
+                   <ul class="mininav-content nav collapse">
+                      <li class="nav-item">
+                         <a  routerLink="/add_employee" class="nav-link active">Add Employee</a>
+                      </li>
+                      <li class="nav-item">
+                         <a href="/search_employee" class="nav-link">Employee Listing</a>
+                      </li>
+                      <li class="nav-item">
+                         <a href="/emp_transfer_status" class="nav-link">Employee Transfer Status</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="/add_employee" class="nav-link">Leave Records</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="/add_employee" class="nav-link">vaccination</a>
+                     </li>
+                   </ul>
+                   <!-- END : Dashboard submenu list -->
+                </li>
+                <!-- END : Link with submenu -->
+                <!-- Link with submenu -->
+                <li class="nav-item has-sub">
+                   <a href="javascript:;" class="mininav-toggle nav-link collapsed"><i class="demo-pli-split-vertical-2 fs-5 me-2"></i>
+                      <span class="nav-label ms-1">Balloting
+                        Moavineen-e- Hujjaj</span>
+                   </a>
+                   <!-- Layouts submenu list -->
+                   <ul class="mininav-content nav collapse">
+                      <li class="nav-item">
+                         <a href="javascript:;" class="nav-link">Mini Navigation</a>
+                      </li>
+                      <li class="nav-item">
+                         <a href="javascript:;" class="nav-link">Push Navigation</a>
+                      </li>
+                      <li class="nav-item">
+                         <a href="javascript:;" class="nav-link">Slide Navigation</a>
+                      </li>
+                      <li class="nav-item">
+                         <a href="javascript:;" class="nav-link">Reveal Navigation</a>
+                      </li>
+                      <li class="nav-item">
+                         <a href="javascript:;" class="nav-link">Stuck Sidebar</a>
+                      </li>
+                      <li class="nav-item">
+                         <a href="javascript:;" class="nav-link">Pinned Sidebar</a>
+                      </li>
+                      <li class="nav-item">
+                         <a href="javascript:;" class="nav-link">Unite Sidebar</a>
+                      </li>
+                      <li class="nav-item">
+                         <a href="javascript:;" class="nav-link">Sticky Header</a>
+                      </li>
+                      <li class="nav-item">
+                         <a href="javascript:;" class="nav-link">Sticky Navigation</a>
+                      </li>
+                   </ul>
+                   <!-- END : Layouts submenu list -->
+                </li>
+                <li class="nav-item has-sub">
+                  <a href="javascript:;" class="mininav-toggle nav-link collapsed"><i class="demo-pli-split-vertical-2 fs-5 me-2"></i>
+                     <span class="nav-label ms-1">Trainings</span>
+                  </a>
+                  <!-- Layouts submenu list -->
+                  <ul class="mininav-content nav collapse">
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Mini Navigation</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Push Navigation</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Slide Navigation</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Reveal Navigation</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Stuck Sidebar</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Pinned Sidebar</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Unite Sidebar</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Sticky Header</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Sticky Navigation</a>
+                     </li>
+                  </ul>
+                  <!-- END : Layouts submenu list -->
+               </li>
+               <li class="nav-item has-sub">
+                  <a href="javascript:;" class="mininav-toggle nav-link collapsed"><i class="demo-pli-split-vertical-2 fs-5 me-2"></i>
+                     <span class="nav-label ms-1">General</span>
+                  </a>
+                  <!-- Layouts submenu list -->
+                  <ul class="mininav-content nav collapse">
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Mini Navigation</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Push Navigation</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Slide Navigation</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Reveal Navigation</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Stuck Sidebar</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Pinned Sidebar</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Unite Sidebar</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Sticky Header</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Sticky Navigation</a>
+                     </li>
+                  </ul>
+                  <!-- END : Layouts submenu list -->
+               </li>
+               <li class="nav-item has-sub">
+                  <a href="javascript:;" class="mininav-toggle nav-link collapsed"><i class="demo-pli-split-vertical-2 fs-5 me-2"></i>
+                     <span class="nav-label ms-1">Reports</span>
+                  </a>
+                  <!-- Layouts submenu list -->
+                  <ul class="mininav-content nav collapse">
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Mini Navigation</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Push Navigation</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Slide Navigation</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Reveal Navigation</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Stuck Sidebar</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Pinned Sidebar</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Unite Sidebar</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Sticky Header</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Sticky Navigation</a>
+                     </li>
+                  </ul>
+                  <!-- END : Layouts submenu list -->
+               </li>
+               <li class="nav-item has-sub">
+                  <a href="javascript:;" class="mininav-toggle nav-link collapsed"><i class="demo-pli-split-vertical-2 fs-5 me-2"></i>
+                     <span class="nav-label ms-1">Permissions</span>
+                  </a>
+                  <!-- Layouts submenu list -->
+                  <ul class="mininav-content nav collapse">
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Mini Navigation</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Push Navigation</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Slide Navigation</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Reveal Navigation</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Stuck Sidebar</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Pinned Sidebar</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Unite Sidebar</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Sticky Header</a>
+                     </li>
+                     <li class="nav-item">
+                        <a href="javascript:;" class="nav-link">Sticky Navigation</a>
+                     </li>
+                  </ul>
+                  <!-- END : Layouts submenu list -->
+               </li>
+                <!-- END : Link with submenu -->
+                <!-- Regular menu link -->
+                <!-- <li class="nav-item">
+                   javascript:;" class="nav-link mininav-toggle"><i class="demo-pli-gear fs-5 me-2"></i>
+                      <span class="nav-label mininav-content ms-1">Widgets</span>
+                   </a>
+                </li> -->
+                <!-- END : Regular menu link -->
+             </ul>
+          </div>
+          
+          <!-- End - Profile widget -->
+       </div>
+       <!-- End - Navigation menu -->
+       <!-- Bottom navigation menu -->
+       <div class="mainnav__bottom-content border-top pb-2">
+          <ul id="mainnav" class="mainnav__menu nav flex-column">
+             <li class="nav-item has-sub">
+                <a href="../login.html" class="nav-link mininav-toggle collapsed" aria-expanded="false">
+                   <i class="demo-pli-unlock fs-5 me-2"></i>
+                   <span class="nav-label ms-1">Logout</span>
+                </a>
+                <ul class="mininav-content nav flex-column collapse">
+                   <li class="nav-item">
+                      <a href="javascript:;" class="nav-link">This device only</a>
+                   </li>
+                   <li class="nav-item">
+                      <a href="javascript:;" class="nav-link">All Devices</a>
+                   </li>
+                   <li class="nav-item">
+                      <a class="nav-link disabled" href="javascript:;" tabindex="-1" aria-disabled="true">Lock screen</a>
+                   </li>
+                </ul>
+             </li>
+          </ul>
+       </div>
+       <!-- End - Bottom navigation menu -->
+    </div>
+ </nav>
+ <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+ <!-- END - MAIN NAVIGATION -->
+ <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+ <!-- END - HEADER -->

@@ -1,0 +1,7 @@
+/* You can add global styles to this file, and also import other style files */
+@media screen  and (max-width:768px){
+    .mainnav{width: 0;}
+    .mainnav.show{ display: block; width: auto;}
+    .nav-pills .nav-item .nav-link{padding: 13px 15px;}
+    
+}

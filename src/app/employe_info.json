@@ -1,0 +1,73 @@
+   [
+      {
+        "emp_code": 1234,
+        "emp_picture": "assets/img/user_pic.png",
+        "emp_name": "Ejaz Ahmed Khan",
+        "bps_scale": 18,
+        "substantive_post": "Superintendent",
+        "working_post": "Superintendent",
+        "office": "Accounts Branch",
+        "present_status": "Serving",
+        "contact_no": "0345-4056586",
+        "contact_no2": "0345-4564456",
+        "update": "Update",
+        "delete": "Delete"
+      },
+      {
+        "emp_code": 1342,
+        "emp_picture": "assets/img/user_pic.png",
+        "emp_name": "Muzafar Abbas",
+        "bps_scale": 18,
+        "substantive_post": "Superintendent",
+        "working_post": "Superintendent",
+        "office": "Accounts Branch",
+        "present_status": "Serving",
+        "contact_no": "0345-4056586",
+        "contact_no2": "0345-4564456",
+        "update": "Update",
+        "delete": "Delete"
+      },
+      {
+        "emp_code": 1254,
+        "emp_picture": "assets/img/user_pic.png",
+        "emp_name": "Faizan Khan",
+        "bps_scale": 18,
+        "substantive_post": "Superintendent",
+        "working_post": "Superintendent",
+        "office": "Accounts Branch",
+        "present_status": "Serving",
+        "contact_no": "0345-4056586",
+        "contact_no2": "0345-4564456",
+        "update": "Update",
+        "delete": "Delete"
+      },
+      {
+        "emp_code": 2134,
+        "emp_picture": "assets/img/user_pic.png",
+        "emp_name": "Taqi Raza Khan",
+        "bps_scale": 18,
+        "substantive_post": "Superintendent",
+        "working_post": "Superintendent",
+        "office": "Accounts Branch",
+        "present_status": "Serving",
+        "contact_no": "0345-4056586",
+        "contact_no2": "0345-4564456",
+        "update": "Update",
+        "delete": "Delete"
+      },
+      {
+        "emp_code": 1134,
+        "emp_picture": "assets/img/user_pic.png",
+        "emp_name": "Sohail Ashraf ",
+        "bps_scale": 18,
+        "substantive_post": "Superintendent",
+        "working_post": "Superintendent",
+        "office": "Accounts Branch",
+        "present_status": "Serving",
+        "contact_no": "0345-4056586",
+        "contact_no2": "0345-4564456",
+        "update": "Update",
+        "delete": "Delete"
+      }
+      
+    ]

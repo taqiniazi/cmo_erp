@@ -1,0 +1,139 @@
+<div class="content__boxed mt-0 p-lg-4 p-md-3">
+    <div class="content__wrap px-lg-2">
+       <div class="row">
+        <div class="col-xl-12 mb-3">
+            <div class="card h-100">
+                <div class="card-header py-3 border-bottom d-flex align-items-center">
+                    <div class="me-auto">
+                        <h3 class="h4 m-0 section_title">Information Of Receipt Of Issued Petrol</h3>
+                    </div>
+                </div>
+                <!-- Network - Area Chart -->
+                <div class="card-body pt-5">
+                    <div class="col-md-11 mb-3 mx-auto">
+                        <div class="row">
+                            <div class="col-md-4 mb-4 position-relative">
+                                <label for="" class="custom_label">Vendor</label>
+                                <input type="text" class="form-control form-control-lg" placeholder="Select Vendor Name" />
+                            </div>
+                            <div class="col-md-4 mb-4 position-relative">
+                                <label for="" class="custom_label">Product Name</label>
+                                <input type="text" class="form-control form-control-lg" placeholder="Select Product  Name" />
+                            </div>
+                            <div class="col-md-4 mb-4 position-relative">
+                                <label for="" class="custom_label">Bill Number</label>
+                                <input type="text" class="form-control form-control-lg" placeholder="Type Here" />
+                            </div>
+                            <div class="col-md-4 mb-4 position-relative">
+                                <label for="" class="custom_label">Quantity </label>
+                                <input type="text" class="form-control form-control-lg" placeholder="Type Here" />
+                            </div>
+                            <div class="col-md-4 mb-4 position-relative">
+                                <label for="" class="custom_label">Bill Date</label>
+                                <input type="date" class="form-control form-control-lg" placeholder="Type Here" />
+                            </div>
+                            <div class="col-md-4 mb-4 position-relative">
+                                <label for="" class="custom_label">Unit Price</label>
+                                <input type="text" class="form-control form-control-lg" placeholder="Type Here" />
+                            </div>
+                            <div class="col-md-4 mb-4 position-relative">
+                                <label for="" class="custom_label">Vehicle Name</label>
+                                <input type="text" class="form-control form-control-lg" placeholder="Type Here" />
+                            </div>
+                            <div class="col-md-4 mb-4 position-relative">
+                                <label for="" class="custom_label">Description</label>
+                                <input type="text" class="form-control form-control-lg" placeholder="Type Here" />
+                            </div>
+                            <div class="col-md-4 mb-4 position-relative">
+                                <label for="" class="custom_label">Remarks</label>
+                                <input type="text" class="form-control form-control-lg" placeholder="Type Here" />
+                            </div>
+                            
+                            <div class="col-md-12 mb-4">
+                                <div class="form-check px-3">
+                                    <input type="checkbox" class="form-check-input" id="active" />
+                                    <label class="form-check-label" for="Active">Active</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12 text-right">
+                                <button class="btn btn-outline-light custom_btn ml-3">Cancel</button>
+                                <button class="btn btn-outline-light custom_btn ml-3">CUR POL</button>
+                                <button class="btn btn-outline-light custom_btn ml-3">PRE POL</button>
+                                <button class="btn btn-primary custom_btn ml-3"> Search </button>
+
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <!-- END : Network - Area Chart -->
+
+            </div>
+        </div>
+          <div class="col-xl-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="col-md-4 ml-auto text-right">
+                        <div class="form-group">
+                            <input
+                                type="text"
+                                class="form-control rounded-pill"
+                                placeholder="Search..."
+                               
+                            />
+                            </div>
+                    </div>
+                    <table id="example" class="table datatable w-100 table-bordered" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>Emp <br> Code</th>
+                                <th>Vehicle <br> No</th>
+                                <th>Company <br> Name</th>
+                                <th>Product <br> Name </th>
+                                <th>Bill <br> No.</th>
+                                <th>Bill <br> Date</th>
+                                <th>Qty</th>
+                                <th>Unit</th>
+                                <th>Unit <br> Price</th>
+                                <th>Net Price</th>
+                                <th>Remarks</th>
+                                <th>Update</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let employe_information of employe_information  | filter: filterTerm">
+                                <td class="text-center">{{employe_information.emp_code}}</td>
+                                <td>{{employe_information.vehicle_no}}</td>
+                                <td>{{employe_information.company_name}} </td>
+                                <td>{{employe_information.product_name}}</td>
+                                <td>{{employe_information.bill_no}}</td>
+                                <td>{{employe_information.bill_date}}</td>
+                                <td>{{employe_information.qty}}</td>
+                                <td>{{employe_information.unit}}</td>
+                                <td>{{employe_information.unit_price}}</td>
+                                <td>{{employe_information.net_price}}</td>
+                                <td>
+                                    {{employe_information.remarks}}
+                                </td>
+                                <td class="text-center">
+                                    <div class="dropdown table_last">
+                                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="bi bi-three-dots"></i>
+                                        </a>
+
+                                        <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuLink">
+                                            <li><a class="dropdown-item" href="#">{{employe_information.update}}</a></li>
+                                            <li><a class="dropdown-item" href="#">{{employe_information.delete}}</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+       </div>
+ </div>
