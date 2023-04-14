@@ -10,7 +10,7 @@ import { ProductCategoryComponent } from './product-category/product-category.co
 
 
 const routes: Routes = [
-  { path: '', component: DashboardComponent },
+  { path: '', component: SearchEmployeeIInformationComponent },
   { path: 'search_employee', component: SearchEmployeeIInformationComponent },
   { path: 'add_employee', component: AddEmployeeComponent },
   { path: 'emp_transfer_status', component: EmpTransferStatusComponent },
