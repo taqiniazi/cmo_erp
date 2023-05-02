@@ -38,7 +38,7 @@
                          <i class="demo-pli-computer-secure fs-5 me-2"></i>
                          <span class="ms-1">Lock screen</span>
                       </a>
-                      <a href="../login.html" class="nav-link">
+                      <a href="javascript:;" class="nav-link">
                          <i class="demo-pli-unlock fs-5 me-2"></i>
                          <span class="ms-1">Logout</span>
                       </a>
@@ -52,92 +52,124 @@
              <h6 class="mainnav__caption mt-0 px-3 fw-bold">Navigation</h6>
              <ul class="mainnav__menu nav flex-column">
                 <!-- Link with submenu -->
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                   <a routerLink="/" class="nav-link active"><i class="demo-pli-home fs-5 me-2"></i>
                      <span class="nav-label ms-1">Dashboard</span>
                   </a>
-               </li>
+               </li> -->
                 <li class="nav-item has-sub">
                    <a href="javascript:;" class="mininav-toggle nav-link"><i class="demo-pli-home fs-5 me-2"></i>
                       <span class="nav-label ms-1">HRIS</span>
                    </a>
                    <!-- Dashboard submenu list -->
                    <ul class="mininav-content nav collapse">
-                      <li class="nav-item">
-                         <a  routerLink="/add_employee" class="nav-link">Add Employee</a>
-                      </li>
-                      <li class="nav-item">
-                         <a href="/search_employee" class="nav-link">Employee Listing</a>
-                      </li>
-                      <li class="nav-item">
-                         <a href="/emp_transfer_status" class="nav-link">Employee Transfer Status</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="/add_employee" class="nav-link">Leave Records</a>
+                     <li class="nav-item has-sub">
+                        <a href="javascript:;" class="mininav-toggle nav-link collapsed"><i class="demo-pli-split-vertical-2 fs-5 me-2"></i>
+                           <span class="nav-label ms-1">General</span>
+                        </a>
+                        <!-- Layouts submenu list -->
+                        <ul class="mininav-content nav collapse">
+                           <li class="nav-item">
+                              <a  routerLink="/hris/add_employee" class="nav-link">Add Employee</a>
+                           </li>
+                           <li class="nav-item">
+                              <a href="/hris/search_employee" class="nav-link">Employee Listing</a>
+                           </li>
+                           <li class="nav-item">
+                              <a href="/hris/emp_transfer_status" class="nav-link">Employee Transfer Status</a>
+                           </li>
+                           <li class="nav-item">
+                             <a href="/hris/add_employee" class="nav-link">Leave Records</a>
+                          </li>
+                          <li class="nav-item">
+                             <a href="/hris/add_employee" class="nav-link">vaccination</a>
+                          </li>
+                           
+                        </ul>
+                        <!-- END : Layouts submenu list -->
                      </li>
-                     <li class="nav-item">
-                        <a href="/add_employee" class="nav-link">vaccination</a>
+                      
+                     <li class="nav-item has-sub">
+                        <a href="javascript:;" class="mininav-toggle nav-link collapsed"><i class="demo-pli-split-vertical-2 fs-5 me-2"></i>
+                           <span class="nav-label ms-1">Balloting
+                             Moavineen-e- Hujjaj</span>
+                        </a>
+                        <!-- Layouts submenu list -->
+                        <ul class="mininav-content nav collapse">
+                           <li class="nav-item">
+                              <a href="/hris/hajj-balloting" class="nav-link">BPS 7-16</a>
+                           </li>
+                           <li class="nav-item">
+                              <a href="javascript:;" class="nav-link">BPS 18-20</a>
+                           </li>
+                           
+                        </ul>
+                        <!-- END : Layouts submenu list -->
                      </li>
+                     <li class="nav-item has-sub">
+                       <a href="javascript:;" class="mininav-toggle nav-link collapsed"><i class="demo-pli-split-vertical-2 fs-5 me-2"></i>
+                          <span class="nav-label ms-1">Trainings</span>
+                       </a>
+                       <!-- Layouts submenu list -->
+                       <ul class="mininav-content nav collapse">
+                          <li class="nav-item">
+                             <a href="javascript:;" class="nav-link">Mini Navigation</a>
+                          </li>
+                       </ul>
+                       <!-- END : Layouts submenu list -->
+                    </li>
+                    <li class="nav-item has-sub">
+                       <a href="javascript:;" class="mininav-toggle nav-link collapsed"><i class="demo-pli-split-vertical-2 fs-5 me-2"></i>
+                          <span class="nav-label ms-1">General</span>
+                       </a>
+                       <!-- Layouts submenu list -->
+                       <ul class="mininav-content nav collapse">
+                          <li class="nav-item">
+                             <a href="javascript:;" class="nav-link">Mini Navigation</a>
+                          </li>
+                          
+                       </ul>
+                       <!-- END : Layouts submenu list -->
+                    </li>
+                    <li class="nav-item has-sub">
+                       <a href="javascript:;" class="mininav-toggle nav-link collapsed"><i class="demo-pli-split-vertical-2 fs-5 me-2"></i>
+                          <span class="nav-label ms-1">Reports</span>
+                       </a>
+                       <!-- Layouts submenu list -->
+                       <ul class="mininav-content nav collapse">
+                          <li class="nav-item">
+                             <a href="javascript:;" class="nav-link">Mini Navigation</a>
+                          </li>
+                       </ul>
+                       <!-- END : Layouts submenu list -->
+                    </li>
+                    
                    </ul>
                    <!-- END : Dashboard submenu list -->
                 </li>
-                <!-- END : Link with submenu -->
-                <!-- Link with submenu -->
                 <li class="nav-item has-sub">
-                   <a href="javascript:;" class="mininav-toggle nav-link collapsed"><i class="demo-pli-split-vertical-2 fs-5 me-2"></i>
-                      <span class="nav-label ms-1">Balloting
-                        Moavineen-e- Hujjaj</span>
-                   </a>
-                   <!-- Layouts submenu list -->
-                   <ul class="mininav-content nav collapse">
-                      <li class="nav-item">
-                         <a href="/hajj-balloting" class="nav-link">BPS 7-16</a>
-                      </li>
-                      <li class="nav-item">
-                         <a href="javascript:;" class="nav-link">BPS 18-20</a>
-                      </li>
-                      
-                   </ul>
-                   <!-- END : Layouts submenu list -->
-                </li>
+                  <a href="javascript:;" class="mininav-toggle nav-link"><i class="demo-pli-home fs-5 me-2"></i>
+                     <span class="nav-label ms-1">Vehicle</span>
+                  </a>
+                  <!-- Dashboard submenu list -->
+                  <ul class="mininav-content nav collapse">
+                     <li class="nav-item">
+                        <a  routerLink="/vehicle/dashboard" class="nav-link">Dashboard</a>
+                     </li>
+                     <li class="nav-item">
+                        <a  routerLink="/vehicle/icip" class="nav-link">Receipt Of Issued Petrol</a>
+                     </li>
+                     <li class="nav-item">
+                        <a  routerLink="/vehicle/mro_vehicle" class="nav-link">POL and MRO </a>
+                     </li>
+                     <li class="nav-item">
+                        <a  routerLink="/vehicle/product_cat_info" class="nav-link">Product Category Info </a>
+                     </li>
+                   
+                  </ul>
+                  <!-- END : Dashboard submenu list -->
+               </li>
                 <li class="nav-item has-sub">
-                  <a href="javascript:;" class="mininav-toggle nav-link collapsed"><i class="demo-pli-split-vertical-2 fs-5 me-2"></i>
-                     <span class="nav-label ms-1">Trainings</span>
-                  </a>
-                  <!-- Layouts submenu list -->
-                  <ul class="mininav-content nav collapse">
-                     <li class="nav-item">
-                        <a href="javascript:;" class="nav-link">Mini Navigation</a>
-                     </li>
-                  </ul>
-                  <!-- END : Layouts submenu list -->
-               </li>
-               <li class="nav-item has-sub">
-                  <a href="javascript:;" class="mininav-toggle nav-link collapsed"><i class="demo-pli-split-vertical-2 fs-5 me-2"></i>
-                     <span class="nav-label ms-1">General</span>
-                  </a>
-                  <!-- Layouts submenu list -->
-                  <ul class="mininav-content nav collapse">
-                     <li class="nav-item">
-                        <a href="javascript:;" class="nav-link">Mini Navigation</a>
-                     </li>
-                     
-                  </ul>
-                  <!-- END : Layouts submenu list -->
-               </li>
-               <li class="nav-item has-sub">
-                  <a href="javascript:;" class="mininav-toggle nav-link collapsed"><i class="demo-pli-split-vertical-2 fs-5 me-2"></i>
-                     <span class="nav-label ms-1">Reports</span>
-                  </a>
-                  <!-- Layouts submenu list -->
-                  <ul class="mininav-content nav collapse">
-                     <li class="nav-item">
-                        <a href="javascript:;" class="nav-link">Mini Navigation</a>
-                     </li>
-                  </ul>
-                  <!-- END : Layouts submenu list -->
-               </li>
-               <li class="nav-item has-sub">
                   <a href="javascript:;" class="mininav-toggle nav-link collapsed"><i class="demo-pli-split-vertical-2 fs-5 me-2"></i>
                      <span class="nav-label ms-1">Permissions</span>
                   </a>
@@ -150,6 +182,9 @@
                   </ul>
                   <!-- END : Layouts submenu list -->
                </li>
+                <!-- END : Link with submenu -->
+                <!-- Link with submenu -->
+                
                 <!-- END : Link with submenu -->
                 <!-- Regular menu link -->
                 <!-- <li class="nav-item">

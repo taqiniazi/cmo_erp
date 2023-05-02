@@ -1,0 +1,32 @@
+h3.card-title{
+    color: #5F5F5F;
+    font-size: 22px;
+    font-weight: 700;
+}
+.emp_info div{
+    font-weight: 500;
+    font-size:14px;
+    &:nth-child(odd){
+        font-size: 13px;
+        font-weight: 400;
+        color: #AEAEAE;
+        margin-bottom: 4px;
+    }
+}
+.table.emp_custom_table{
+    color:#AEAEAE;
+    font-size: 14px;
+    tr{
+        td{
+            div{
+                font-weight: 500;
+                &:first-child{
+                    font-size: 13px;
+                    font-weight: 400;
+                    margin-bottom: 4px;
+                }
+            }
+        }
+    }
+}
+

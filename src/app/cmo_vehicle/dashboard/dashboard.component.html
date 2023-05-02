@@ -1,0 +1,68 @@
+<!-- /.content-header -->
+
+<section class="content">
+    <div class="container-fluid px-lg-4">
+        <!-- Small boxes (Stat box) -->
+        <div class="row"><div class="col-md-12 title_dash mb-5 pt-4">Welcome!</div></div>
+        <div class="row">
+            <div class="col-md-4 mb-3  d-flex d-flex-strech pr-4">
+                <div class="card w-100">
+                    <div class="card-body">
+                        <div class="card_title mb-4">Vehicle Performance
+                            <small class="sub_card_title d-block">See how Vehicle is performing</small>
+                        </div>
+                        <app-vehicle-performance-chart></app-vehicle-performance-chart>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3 d-flex d-flex-strech pr-4">
+                <div class="card w-100 border-0">
+                    <div class="card-body">
+                        <div class="card_title mb-4">
+                            Vehicle Health
+                            <small class="sub_card_title d-block">Check your Vehicle health score</small>
+                        </div>
+                        
+                        <app-vehicle-health-chart></app-vehicle-health-chart>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3 d-flex d-flex-strech pl-2">
+                <div class="card w-100">
+                    <div class="card-body">
+                        <div class="card_title mb-4">
+                            Running Vehicles
+                            <small class="sub_card_title d-block">Percentage of Vehicles Running</small>
+                        </div>
+                        <app-running-vehicles-chart></app-running-vehicles-chart>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 mb-3 d-flex d-flex-streach pr-lg-4">
+                <div class="card w-100 ">
+                    <div class="card-body">
+                        <div class="card_title">
+                            Average Petrol Usage
+                            <small class="sub_card_title d-block">See how Vehicle is performing</small>
+                        </div>
+                        
+                        <app-average-petrol-usage-chart></app-average-petrol-usage-chart>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3 d-flex d-flex-streach">
+                <div class="card w-100">
+                    <div class="card-body">
+                        <div class="card_title">Total Vehicle</div>
+                        <small class="sub_card_title">See how Vehicle is performing</small>
+                        <app-total-vehicles-chart></app-total-vehicles-chart>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Main row -->
+</section>
+<!-- /.content -->

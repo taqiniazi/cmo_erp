@@ -1,11 +1,11 @@
 {
   "name": "cmo-hris",
-  "version": "0.0.0",
+  "version": "1.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "watch": "ng build --watch --configuration development",
+    "watch": "ng build --watch --configuration developmeclearnt",
     "test": "ng test"
   },
   "private": true,
@@ -19,6 +19,7 @@
     "@angular/platform-browser-dynamic": "^15.2.0",
     "@angular/router": "^15.2.0",
     "angular-datatables": "^15.0.0",
+    "canvasjs": "^1.8.3",
     "datatables.net": "^1.13.4",
     "datatables.net-dt": "^1.13.4",
     "jquery": "^3.6.4",

@@ -8,6 +8,9 @@ body{
 a, a:hover{
     text-decoration: none;
 }
+.content__boxed {
+    min-height: 84vh;
+}
 .scroll-page{
     background: #fa9f1b;
 }
